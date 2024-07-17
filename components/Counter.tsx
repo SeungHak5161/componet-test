@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useRef } from "react";
+"use client";
+import { useEffect, useRef, useState } from "react";
 
 const Button = (props: { onClick: () => void; text: string }) => {
   return <button onClick={props.onClick}>{props.text}</button>;
